@@ -1,0 +1,212 @@
+ul{
+    list-style: none;
+    display: block;
+}
+li{
+    float: left;
+}
+li a {
+    color: gray;
+    text-decoration-style: none;
+    font-family:roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10;
+}
+.dropdown:hover .one{
+    display:block
+}
+li a:hover{
+    color: rgb(0, 179, 155);
+ }
+  .one{
+    display: none;
+    width: 220px;
+    padding: 14px;
+    box-shadow:0px 8px 16px 0px gray;
+    position: absolute;
+    margin-left: -120px;
+}
+.nav {
+    position: fixed;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav div{
+    display: inline-flex;
+    margin-left: 100px;
+    justify-items: right;
+    margin-bottom: 180px;
+    margin-right: 80px;
+    margin-top: 0px;
+    }
+    .section1{
+        margin-top: 0px;
+ padding-top: 100px;
+ text-align: center;
+ }
+.section1 h1{
+    font-size: 34px;
+    color: rgb(0, 179, 155);
+    font-weight:300;
+    font-family: roboto;
+    text-align: center;
+}
+.division{
+    display: block;
+    justify-content: space-around;
+    padding-top: 20px;
+     margin: 0px 180px;
+    color: rgb(116, 116, 116);
+}
+.prg1{
+    width: 50%;
+    float: left;
+    text-align:left;
+    font-family:roboto;
+    line-height:1;
+    font-weight: 300;
+}
+.prg2{
+    width: 50%;
+    float: right;
+    text-align: left;
+    font-family: roboto;
+    line-height: 1;
+    font-weight: 300;
+}
+.section2{
+    margin: 200px auto 40px;
+    position: relative;
+}
+.docteur{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: space-between;
+}
+.patient{
+    padding: 10px;
+    width: 33.33%;
+    margin-right: 10px;
+     background-color:#00ccb1;
+     border-radius: 10px;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  transition: all .2s ease 0s;
+   }
+   .patient1{
+    padding-top: 1.375em;
+    padding-right: 1.30em;
+    padding-bottom: 0px;
+    padding-left: 1.30em;
+    color: white;
+   }
+   .patient1 h1{
+    font-family:Roboto;
+     font-weight: 300;
+     font-size: 28px;
+  }
+  .patient1 h2{
+   font-family:Roboto;
+   font-weight: 300;
+   font-size: 24px;
+  }
+  .doctors{
+    padding: 10px;
+    width: 33.33%;
+    margin: 0px 10px;
+    height: 330px;
+    border-radius: 10px;
+  display: flex;
+  justify-content:space-between;
+  transition: all .2s ease 0s;
+    background-color: #3d83df;
+    
+   }
+   .doctor1{
+    padding-top: 1.375em;
+    padding-right: 1.30em;
+    padding-bottom: 0px;
+    padding-left: 1.30em;
+    color: white;
+   }
+   .doctor1 h1{
+    
+    font-family:Roboto;
+     font-weight: 300;
+     font-size: 28px;
+  }
+  .doctor1 h2{
+   font-family:Roboto;
+   font-weight: 300;
+   font-size: 24px;
+  }
+  .clinics{
+    padding: 10px;
+    width: 50%;
+    margin-left: 5px;
+background-color: #1b2734;
+height: 330px;
+    border-radius: 10px;
+  display:flex;
+  justify-content: space-between;
+  transition: all .2s ease 0s;
+  margin-right: 200px;
+   }
+   .clinics1{
+    padding-top: 1.375em;
+    padding-right: 1.30em;
+    padding-bottom: 0px;
+    padding-left: 1.30em;
+    color: white;
+   }
+   .clinics1 h1{
+    font-family:Roboto;
+     font-weight: 300;
+     font-size: 28px;
+  }
+  .clinics1 h2{
+   font-family:Roboto;
+   font-weight: 300;
+   font-size: 24px;
+  }
+ 
+  #countries-switcher{
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 19px;
+   border: 0;
+  }
+  #co-switcher{
+    margin-top: 30px;
+    background: transparent;
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 20px;
+   border: 0;}
+  #less-switcher{
+    margin-top: 30px;
+    background: transparent;
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 20px;
+   border: 0;
+  }
+  #more-switcher{
+    background: transparent;
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 20px;
+   border: 0;
+  }
